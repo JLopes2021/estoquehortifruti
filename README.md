@@ -35,6 +35,9 @@ Bem-vindo ao Sistema de Estoque do Mercado de Horticultura. Este projeto foi des
 - **config.php:** Arquivo de configuração para as credenciais do banco de dados.
 - **database.sql:** Script SQL para a criação do banco de dados e das tabelas.
 
+## Screen
+![Alt text](image.png)
+
 ## Contribuições
 
 Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.

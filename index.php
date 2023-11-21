@@ -38,14 +38,13 @@
             </ul>
         </section>
 
-        <footer>
-            <p>&copy; <?php echo date("Y"); ?> Sistema de Estoque - Mercado de Horticultura</p>
-        </footer>
+        <section>
+            <h3>Alguns de nossos produtos</h3>
+            <p>    <?php include 'model/produtos.php'; ?>
+</p>
+        </section>
+
+      
     </div>
-
-    <!-- Adicione links para os arquivos JavaScript do Bootstrap e outros scripts, se necessário -->
-    <!-- <script src="caminho/para/bootstrap/js/bootstrap.min.js"></script> -->
-
-
 </body>
 </html>

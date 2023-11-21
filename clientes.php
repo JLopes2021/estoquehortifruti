@@ -17,6 +17,8 @@
         </header>
         <section>
             <div class="">
+            <p>    <?php include 'model/clientes.php'; ?>
+
                 <p>EM CONSTRUÇÃO</p>
             </div>
         </section>
