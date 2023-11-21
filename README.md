@@ -36,7 +36,11 @@ Bem-vindo ao Sistema de Estoque do Mercado de Horticultura. Este projeto foi des
 - **database.sql:** Script SQL para a criação do banco de dados e das tabelas.
 
 ## Screen
+- Tela Inicial
 ![Alt text](image.png)
+
+- Tela de Administrador
+![Alt text](image-1.png)
 
 ## Contribuições
 

@@ -31,16 +31,30 @@ CREATE TABLE estoque (
     FOREIGN KEY (produto_id) REFERENCES produtos(produto_id)
 );
 
-CREATE TABLE vendas (
-    venda_id INT PRIMARY KEY,
-    produto_id INT,
-    quantidade INT,
-    data_venda TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (produto_id) REFERENCES produtos(produto_id)
-);
+
+CREATE TABLE vendas ( 
+venda_id INT PRIMARY KEY, 
+produto_nome varchar(255), cliente_nome varchar(255),
+operador_nome varchar(255), quantidade INT, 
+data_venda TIMESTAMP DEFAULT CURRENT_TIMESTAMP ),
+;
 
 CREATE TABLE clientes (
     cliente_id INT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
 );
+
+
+INSERT INTO vendas (venda_id, produto_nome, cliente_nome, operador_nome, quantidade, data_venda)
+VALUES
+(1, 'Maçã', 'João Silva', 'Operador1', 2, '2023-11-20 10:00:00'),
+(2, 'Banana', 'Maria Oliveira', 'Operador2', 3, '2023-11-20 11:30:00'),
+(3, 'Laranja', 'Carlos Pereira', 'Operador3', 1, '2023-11-20 14:45:00'),
+(4, 'Pêssego', 'Ana Santos', 'Operador1', 2, '2023-11-21 09:15:00'),
+(5, 'Abacaxi', 'Pedro Rocha', 'Operador2', 3, '2023-11-21 11:00:00'),
+(6, 'Morango', 'Cristina Lima', 'Operador3', 1, '2023-11-21 13:30:00'),
+(7, 'Uva', 'Lucas Oliveira', 'Operador1', 2, '2023-11-22 10:45:00'),
+(8, 'Melancia', 'Mariana Costa', 'Operador2', 1, '2023-11-22 14:00:00'),
+(9, 'Kiwi', 'Paulo Souza', 'Operador3', 3, '2023-11-23 12:20:00'),
+(10, 'Manga', 'Fernanda Almeida', 'Operador1', 2, '2023-11-23 15:45:00');
