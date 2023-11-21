@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Estoque - Mercado de Horticultura</title>
-    <!-- Adicione links para os arquivos CSS do Bootstrap se necessário -->
-    <!-- <link rel="stylesheet" href="caminho/para/bootstrap/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="view/index.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
 </head>
 <body>
+<?php include './view/cabecalho.php'; ?>
 
     <div class="container">
         <header>
@@ -41,6 +45,7 @@
 
     <!-- Adicione links para os arquivos JavaScript do Bootstrap e outros scripts, se necessário -->
     <!-- <script src="caminho/para/bootstrap/js/bootstrap.min.js"></script> -->
+
 
 </body>
 </html>
